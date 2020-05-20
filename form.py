@@ -21,3 +21,4 @@ class ProfileForm(FlaskForm):
     biograpy = TextAreaField ('Biography', validators=[DataRequired()], id="bio")
     picture = FileField('Profile Picture', validators=[FileRequired(), FileAllowed(['jpg', 'png', 'jpeg', 'PNG'], 'Images only!')],id="profilepicture")
     "2020-05-14T13:15:29+05:30"
+kndioesokodsknfkdkn
